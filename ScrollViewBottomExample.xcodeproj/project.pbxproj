@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B3BC348E27921CA0000F7677 /* ScrollViewBottomExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC348D27921CA0000F7677 /* ScrollViewBottomExampleApp.swift */; };
-		B3BC349027921CA0000F7677 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC348F27921CA0000F7677 /* ContentView.swift */; };
+		B3BC349027921CA0000F7677 /* AutoHideTopViewScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC348F27921CA0000F7677 /* AutoHideTopViewScroll.swift */; };
 		B3BC349227921CA3000F7677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BC349127921CA3000F7677 /* Assets.xcassets */; };
 		B3BC349527921CA3000F7677 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BC349427921CA3000F7677 /* Preview Assets.xcassets */; };
 		B3BC349F27921CA4000F7677 /* ScrollViewBottomExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC349E27921CA4000F7677 /* ScrollViewBottomExampleTests.swift */; };
 		B3BC34A927921CA4000F7677 /* ScrollViewBottomExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC34A827921CA4000F7677 /* ScrollViewBottomExampleUITests.swift */; };
 		B3BC34AB27921CA4000F7677 /* ScrollViewBottomExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC34AA27921CA4000F7677 /* ScrollViewBottomExampleUITestsLaunchTests.swift */; };
+		B3BC34BE2799C8FF000F7677 /* InfinitScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BC34BD2799C8FF000F7677 /* InfinitScroll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B3BC348A27921CA0000F7677 /* ScrollViewBottomExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewBottomExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BC348A27921CA0000F7677 /* Scroll VIew Extras Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scroll VIew Extras Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BC348D27921CA0000F7677 /* ScrollViewBottomExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBottomExampleApp.swift; sourceTree = "<group>"; };
-		B3BC348F27921CA0000F7677 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3BC348F27921CA0000F7677 /* AutoHideTopViewScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoHideTopViewScroll.swift; sourceTree = "<group>"; };
 		B3BC349127921CA3000F7677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3BC349427921CA3000F7677 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3BC349A27921CA4000F7677 /* ScrollViewBottomExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewBottomExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		B3BC34A427921CA4000F7677 /* ScrollViewBottomExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewBottomExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3BC34A827921CA4000F7677 /* ScrollViewBottomExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBottomExampleUITests.swift; sourceTree = "<group>"; };
 		B3BC34AA27921CA4000F7677 /* ScrollViewBottomExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBottomExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3BC34BD2799C8FF000F7677 /* InfinitScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitScroll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +86,7 @@
 		B3BC348B27921CA0000F7677 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B3BC348A27921CA0000F7677 /* ScrollViewBottomExample.app */,
+				B3BC348A27921CA0000F7677 /* Scroll VIew Extras Demo.app */,
 				B3BC349A27921CA4000F7677 /* ScrollViewBottomExampleTests.xctest */,
 				B3BC34A427921CA4000F7677 /* ScrollViewBottomExampleUITests.xctest */,
 			);
@@ -95,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				B3BC348D27921CA0000F7677 /* ScrollViewBottomExampleApp.swift */,
-				B3BC348F27921CA0000F7677 /* ContentView.swift */,
+				B3BC348F27921CA0000F7677 /* AutoHideTopViewScroll.swift */,
 				B3BC349127921CA3000F7677 /* Assets.xcassets */,
 				B3BC349327921CA3000F7677 /* Preview Content */,
+				B3BC34BD2799C8FF000F7677 /* InfinitScroll.swift */,
 			);
 			path = ScrollViewBottomExample;
 			sourceTree = "<group>";
@@ -144,7 +147,7 @@
 			);
 			name = ScrollViewBottomExample;
 			productName = ScrollViewBottomExample;
-			productReference = B3BC348A27921CA0000F7677 /* ScrollViewBottomExample.app */;
+			productReference = B3BC348A27921CA0000F7677 /* Scroll VIew Extras Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B3BC349927921CA4000F7677 /* ScrollViewBottomExampleTests */ = {
@@ -257,8 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BC349027921CA0000F7677 /* ContentView.swift in Sources */,
+				B3BC349027921CA0000F7677 /* AutoHideTopViewScroll.swift in Sources */,
 				B3BC348E27921CA0000F7677 /* ScrollViewBottomExampleApp.swift in Sources */,
+				B3BC34BE2799C8FF000F7677 /* InfinitScroll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +437,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.StevePlavetzky.ScrollViewBottomExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Scroll VIew Extras Demo";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -462,7 +466,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.StevePlavetzky.ScrollViewBottomExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Scroll VIew Extras Demo";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

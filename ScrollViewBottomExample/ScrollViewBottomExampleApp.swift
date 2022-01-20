@@ -11,7 +11,8 @@ import SwiftUI
 struct ScrollViewBottomExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AutoHideTopViewScroll()
+//            DemoView()
         }
     }
 }
